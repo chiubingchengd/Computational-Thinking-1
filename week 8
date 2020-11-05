@@ -1,0 +1,122 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOb8z5m5fRkwuht6hWt4+gS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/chiubingchengd/Computational-Thinking-1/blob/master/week%208\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "wJFrK-icgLP_",
+        "outputId": "25f92a2b-e6de-49fe-f9ce-937c540499f3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        " cloth=int(input('please enter the quantity of the clothes'))\n",
+        " trousers=int(input('please enter the quantity of the trousers'))\n",
+        " vest=int(input('please enter the quantity of the vest'))\n",
+        "\n",
+        " total=cloth*300+trousers*350+vest*400\n",
+        " print('the total price of the clothes', total)\n",
+        "       "
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "please enter the quantity of the clothes6\n",
+            "please enter the quantity of the trousers7\n",
+            "please enter the quantity of the vest9\n",
+            "the total price of the clothes 7850\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "VHwjzRYJkN0K",
+        "outputId": "f42525a5-18ef-483e-c6dc-07590b640424",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        " cans=int(input('please enter the quantity of cans you want'))\n",
+        "\n",
+        " total=(cans//12)*200 + (cans%12)*20\n",
+        "\n",
+        " print('the price is',total)  \n",
+        " \n"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "please enter the quantity of cans you want7\n",
+            "the price is 140\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "G9zrGuR7lmpc",
+        "outputId": "078ba4d3-66a8-4cc0-ae83-b4b870614de6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        " fir=int(input('please enter  the first  exam score'))\n",
+        " sec=int(input('please enter the midterm score'))\n",
+        " final=int(input('please enter the final score'))\n",
+        " total=fir+sec+final\n",
+        " print('total score', total)\n",
+        " average=total/3\n",
+        " print('average score', average)\n"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "please enter  the first  exam score30\n",
+            "please enter the midterm score60\n",
+            "please enter the final score90\n",
+            "total score 180\n",
+            "average score 60.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
